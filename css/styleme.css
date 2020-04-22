@@ -5,6 +5,12 @@
     background-color: navajowhite;
 }
 
+p::first-letter 
+{
+    color: #ff0000;
+    font-size: xx-large;
+}
+
 p
 {
     color: green; 
@@ -40,10 +46,19 @@ a:hover
     text-decoration: underline;
 }
 
-div.menu-bar ul ul {
+ol { 
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+li {
+    flex: 0 0 auto;
+}
+
+/* div.menu-bar ul ol {
     display: none;
   }
 
   div.menu-bar li:hover > ul {
     display: block;
-  }
+  } */
