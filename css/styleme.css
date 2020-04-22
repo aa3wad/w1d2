@@ -1,0 +1,49 @@
+/* styleme */
+
+.body
+{
+    background-color: navajowhite;
+}
+
+p
+{
+    color: green; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header span 
+{
+   font-weight: bold;
+   font-size: xx-large;
+   color: lightsalmon; 
+}
+
+div span
+{
+    font-weight: bold;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold 
+{
+    font-weight: bold;  
+}
+
+a
+{
+    text-decoration: none;
+}
+a:hover
+{
+    font-size: larger;
+    color: green;
+    text-decoration: underline;
+}
+
+div.menu-bar ul ul {
+    display: none;
+  }
+
+  div.menu-bar li:hover > ul {
+    display: block;
+  }
